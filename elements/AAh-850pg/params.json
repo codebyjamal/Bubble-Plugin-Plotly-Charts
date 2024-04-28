@@ -1,0 +1,97 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Scatter",
+    "fields": {
+        "AAd": {
+            "caption": "xArray",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xArray",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAe": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "yArray",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yArray",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAi": {
+            "caption": "xaxis Title",
+            "editor": "DynamicValue",
+            "name": "xaxisTitle",
+            "rank": 4,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "xaxis Range Start",
+            "editor": "DynamicValue",
+            "name": "xaxis_range_start",
+            "rank": 5,
+            "value": "number"
+        },
+        "AAk": {
+            "caption": "xaxis Range End",
+            "editor": "DynamicValue",
+            "name": "xaxis_range_end",
+            "rank": 6,
+            "value": "number"
+        },
+        "AAl": {
+            "caption": "yaxis Title",
+            "editor": "DynamicValue",
+            "name": "yaxiTitle",
+            "rank": 7,
+            "value": "text"
+        },
+        "AAm": {
+            "caption": "yaxis Range Start",
+            "editor": "DynamicValue",
+            "name": "yaxis_range_start",
+            "rank": 8,
+            "value": "number"
+        },
+        "AAn": {
+            "caption": "yaxis Range End",
+            "editor": "DynamicValue",
+            "name": "yaxis_range_end",
+            "rank": 9,
+            "value": "number"
+        },
+        "AAo": {
+            "caption": "mode",
+            "default_val": "lines",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "lines,markers",
+            "rank": 3
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

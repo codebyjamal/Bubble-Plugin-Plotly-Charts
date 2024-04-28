@@ -1,0 +1,47 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Pie Chart",
+    "fields": {
+        "AAJ": {
+            "caption": "labels",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xArray",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAK": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAL": {
+            "caption": "values",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yArray",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

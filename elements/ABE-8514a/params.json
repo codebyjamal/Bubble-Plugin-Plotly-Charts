@@ -1,0 +1,163 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+    },
+    "display": "Bubble Plot",
+    "fields": {
+        "ABA": {
+            "caption": "x1Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "x1Array",
+            "optional": false,
+            "rank": 2,
+            "value": "number"
+        },
+        "ABB": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "ABC": {
+            "caption": "y1Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "y1Array",
+            "rank": 3,
+            "value": "number"
+        },
+        "ABF": {
+            "caption": "x2Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "x2Array",
+            "optional": true,
+            "rank": 7,
+            "value": "number"
+        },
+        "ABG": {
+            "caption": "x3Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "x3Array",
+            "optional": true,
+            "rank": 12,
+            "value": "number"
+        },
+        "ABH": {
+            "caption": "y2Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "y2Array",
+            "optional": true,
+            "rank": 8,
+            "value": "number"
+        },
+        "ABI": {
+            "caption": "y3Array",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "y3Array",
+            "optional": true,
+            "rank": 13,
+            "value": "number"
+        },
+        "ABJ": {
+            "caption": "Trace 1 Color",
+            "doc": "A list seperated with commas green,blue, orange",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "colors1",
+            "rank": 4,
+            "value": "text"
+        },
+        "ABK": {
+            "caption": "Trace 2 Color",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "colors2",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "ABL": {
+            "caption": "Trace 3 Color",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "colors3",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "ABM": {
+            "caption": "Trace 1 Size",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "size1",
+            "rank": 5,
+            "value": "number"
+        },
+        "ABN": {
+            "caption": "Trace 2 Size",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "size2",
+            "optional": true,
+            "rank": 10,
+            "value": "number"
+        },
+        "ABO": {
+            "caption": "Trace 3 Size",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "size3",
+            "optional": true,
+            "rank": 15,
+            "value": "number"
+        },
+        "ABP": {
+            "caption": "Trace 1 Title",
+            "default_val": "Trace 1",
+            "editor": "DynamicValue",
+            "name": "legend1",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ABQ": {
+            "caption": "Trace 2 title ",
+            "default_val": "Trace 2",
+            "editor": "DynamicValue",
+            "name": "legend2",
+            "optional": true,
+            "rank": 6,
+            "value": "text"
+        },
+        "ABR": {
+            "caption": "Trace 3 Title",
+            "default_val": "Trace 3",
+            "editor": "DynamicValue",
+            "name": "legend3",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

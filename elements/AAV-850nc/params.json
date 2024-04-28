@@ -1,0 +1,55 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Plotting Equations",
+    "fields": {
+        "AAR": {
+            "caption": "xValues",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xArray",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAS": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAW": {
+            "caption": "exp",
+            "default_val": "Math.sin(x)",
+            "editor": "Dropdown",
+            "name": "exp",
+            "options": "Math.sin(x),Math.cos(x)",
+            "rank": 2
+        },
+        "AAX": {
+            "caption": "Mode",
+            "default_val": "lines",
+            "editor": "Dropdown",
+            "name": "mode",
+            "options": "lines,markers",
+            "rank": 3
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

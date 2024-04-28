@@ -1,0 +1,66 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Bar Chart",
+    "fields": {
+        "AAD": {
+            "caption": "xArray",
+            "doc": "The labels",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xArray",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAE": {
+            "caption": "Title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAF": {
+            "caption": "yArray",
+            "doc": "The values ",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yArray",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAG": {
+            "caption": "Orientation",
+            "default_val": "h",
+            "doc": "bar chart orientation",
+            "editor": "Dropdown",
+            "in_style": false,
+            "name": "orientation",
+            "options": "v,h",
+            "rank": 3
+        },
+        "AAH": {
+            "caption": "Marker Color",
+            "default_val": "rgba(0,0,0,1)",
+            "editor": "Color",
+            "name": "markercolor",
+            "rank": 4
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}

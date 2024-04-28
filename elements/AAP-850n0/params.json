@@ -1,0 +1,56 @@
+{
+    "add_hover_pressed": true,
+    "add_is_visible": true,
+    "can_fit_height": true,
+    "can_fit_width": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Donut Chart",
+    "fields": {
+        "AAM": {
+            "caption": "labels",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "xArray",
+            "rank": 1,
+            "value": "text"
+        },
+        "AAN": {
+            "caption": "title",
+            "editor": "DynamicValue",
+            "name": "title",
+            "rank": 0,
+            "value": "text"
+        },
+        "AAO": {
+            "caption": "values",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "yArray",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAQ": {
+            "caption": "Hole",
+            "default_val": 0.4,
+            "doc": "recommended from 0.1 to 0.9",
+            "editor": "DynamicValue",
+            "name": "hole",
+            "rank": 3,
+            "value": "number"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "Background": true,
+        "Border": true,
+        "BoxShadow": true,
+        "Font": true,
+        "MinWidth": true,
+        "Padding": true,
+        "resizable": true
+    }
+}
